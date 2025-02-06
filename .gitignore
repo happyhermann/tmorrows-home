@@ -132,3 +132,6 @@ dist
 # Etc.
 
 .DS_Store
+.vscode/settings.json
+web-app-manifest-512x512.png
+web-app-manifest-192x192.png
