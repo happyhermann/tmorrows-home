@@ -1,11 +1,6 @@
+@import "./constatants/colors";
+// 변수와 관련된 것들은 최상위
+
 @import "./base/fonts";
 @import "./base/normalize";
 @import "./base/_reset";
-
-p {
-  color: red;
-}
-
-* {
-  font-family: "Noto Sans KR", serif;
-}
