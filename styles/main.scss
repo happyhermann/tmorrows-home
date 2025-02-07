@@ -1,9 +1,11 @@
-@import "./constatants/colors";
+// @import "./constatants/colors";
 @import "./constatants/typography";
 // 변수와 관련된 것들은 최상위
 
-@import "./base/fonts";
-@import "./base/normalize";
-@import "./base/_reset";
+// @import "./base/fonts";
+// @import "./base/normalize";
+// @import "./base/_reset";
 
-@import "./layouts/grid";
+@import "./mixins/text-style";
+
+// @import "./layouts/grid";
