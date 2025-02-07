@@ -1,0 +1,15 @@
+@mixin responsive($screen) {
+  // 스크린이라는 파라미터에 T나 D를 넣을 것
+
+  @if ($screen == "T") {
+    @media screen and (min-width: $md-breakpoint) {
+      @content;
+    }
+  }
+
+  @if ($screen == "D") {
+    @media screen and (min-width: $lg-breakpoint) {
+      @content;
+    }
+  }
+}
