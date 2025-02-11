@@ -50,8 +50,4 @@
   }
 }
 
-p {
-  @include text-style(13, red);
-}
-
 // 얘를 include하면 typography
