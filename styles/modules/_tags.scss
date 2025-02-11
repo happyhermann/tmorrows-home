@@ -1,0 +1,31 @@
+// 태그와 관련된 스타일만 선언할 것
+
+%tag-base {
+  // 공통 스타일
+  @include inline-flexbox;
+  @include text-style-12;
+  height: 20px;
+  padding: 0 6px;
+  font-weight: 700;
+  border-radius: 4px;
+}
+
+.tag-red {
+  @extend %tag-base;
+  color: $white;
+  background-color: $red;
+}
+
+.tag-green {
+  @extend %tag-base;
+  color: $white;
+  background-color: $green;
+}
+
+.tag-gray {
+  @extend %tag-base;
+  background-color: $border;
+  color: $secondary;
+}
+
+// 플레이스홀더는 공통적인 것을 그룹핑을 한다
