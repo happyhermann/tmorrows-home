@@ -1,4 +1,4 @@
-.visually-hiddden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -10,6 +10,7 @@
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+  background-color: red;
 }
 
 // visually-hidden 의 이유, 웹접근성 by Bootstrap
@@ -17,11 +18,12 @@
 .sm-only {
   @media screen and (min-width: $md-breakpoint) {
     display: none !important;
+    background-color: red;
   }
 }
 
 .md-only {
-  @media screen and (max-width: $md-breakpoint -1) {
+  @media screen and (max-width: $md-breakpoint - 1px) {
     display: none !important;
   }
   @media screen and (min-width: $lg-breakpoint) {
@@ -30,24 +32,24 @@
 }
 
 .lg-only {
-  @media screen and (max-width: $lg-breakpoint - 1) {
+  @media screen and (max-width: $lg-breakpoint - 1px) {
     display: none !important;
   }
 }
 
 .sm-hidden {
-  @media screen and (max-width: $md-breakpoint -1) {
+  @media screen and (max-width: $md-breakpoint - 1px) {
     display: none !important;
   }
 }
 
 .md-hidden {
-  @media screen and (min-width: $md-breakpoint) and (max-width: $lg-breakpoint -1) {
+  @media screen and (min-width: $md-breakpoint) and (max-width: $lg-breakpoint - 1px) {
     display: none !important;
   }
 }
 // 타블렛 구간에서만 none
-.sm-hidden {
+.lg-hidden {
   @media screen and (min-width: $lg-breakpoint) {
     display: none !important;
   }
