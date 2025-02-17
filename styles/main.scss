@@ -1,6 +1,7 @@
 @import "./constatants/colors";
 @import "./constatants/typography";
 @import "./constatants/breakpoints";
+@import "./constatants/box-shadows";
 
 // 변수와 관련된 것들은 최상위
 
@@ -25,6 +26,7 @@
 
 @import "./components/gnb-nav";
 @import "./components/gnb-icon-buttons";
+@import "./components/my-menu";
 
 @import "./layouts/grid";
 @import "./layouts/gnb";
