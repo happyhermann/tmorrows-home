@@ -2,19 +2,15 @@
 @import "./constatants/typography";
 @import "./constatants/breakpoints";
 @import "./constatants/box-shadows";
-
 // 변수와 관련된 것들은 최상위
-
 @import "./base/fonts";
 @import "./base/normalize";
 @import "./base/_reset";
 @import "./base/globals";
-
 @import "./mixins/text-style";
 @import "./mixins/responsive";
 @import "./mixins/positions";
 @import "./mixins/flexbox";
-
 @import "./modules/tags";
 @import "./modules/avatars";
 @import "./modules/star-ratings";
@@ -23,12 +19,9 @@
 @import "./modules/forms";
 @import "./modules/pagination";
 @import "./modules/icons";
-
 @import "./components/gnb-nav";
 @import "./components/gnb-icon-buttons";
 @import "./components/my-menu";
-
 @import "./layouts/grid";
 @import "./layouts/gnb";
-
-// 한 번만 쓸때는, 반복 X => 레이아웃
+@import "./layouts/sidebar"; // 한 번만 쓸때는, 반복 X => 레이아웃
