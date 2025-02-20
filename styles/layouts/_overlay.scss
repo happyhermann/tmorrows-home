@@ -6,4 +6,14 @@
   width: 100%;
   height: 100vh;
   background-color: rgba($primary, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  //   시각적으로 존재하지 않은 것 처럼 처리
+  transition:
+    opacity 300ms ease-in-out,
+    visibility 300ms;
+  &.is-active {
+    opacity: 1;
+    visibility: visible;
+  }
 }
